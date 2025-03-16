@@ -19,11 +19,8 @@ git clone https://github.com/AniketShinde03/TaskFlow-To-list-app.git
 Open index.html in a browser
 Start managing your tasks with Task Flow! 🎯
 
-📷 "C:\Users\shind\OneDrive\Pictures\Screenshots\Screenshot (137).png"Screenshots
-
-
-
 📷 Screenshots
+![image alt](https://github.com/AniketShinde03/TaskFlow-To-list-app/blob/aad33bb10f9c6ce57ed40e0a71991f9797c62bad/Screenshot%20(136).png)
 
 
 🏗 Project Structure
