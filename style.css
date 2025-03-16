@@ -1,0 +1,138 @@
+/* General Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 20px;
+    color: #333;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100vh; /* Take full viewport height */
+}
+
+/* Task Input and Button */
+#inputTask {
+    width: 80%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+  
+#addTaskbtn {
+    display: inline;
+    margin-top: 15px;
+    padding: 10px 15px;
+    font-size: 16px;
+    color: white;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+  
+#addTaskbtn:hover {
+    background-color: #0056b3;
+}
+
+/* Centered Task List Container */
+#TaskList {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px;
+    width: 100%; /* Full width for responsiveness */
+    max-width: 600px; /* Maximum width */
+}
+
+/* Task Item */
+.task-item {
+    display: flex;
+    justify-content: space-between; /* Ensure buttons are at the end */
+    align-items: center;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    transition: box-shadow 0.3s ease;
+}
+
+.task-item:hover {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Task Text Styling */
+.task-text.completed {
+    text-decoration: line-through;
+    color: gray;
+}
+
+/* Ensure no line-through or text-decoration for buttons */
+.task-done-btn,
+.task-delete-btn {
+    text-decoration: none;
+}
+
+/* Buttons for Task Actions */
+.task-done-btn,
+.task-delete-btn {
+    padding: 5px 10px;
+    font-size: 14px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-left: 10px; /* Space between the buttons */
+}
+  
+.task-done-btn {
+    background-color: #28a745;
+    color: white;
+}
+  
+.task-done-btn:hover {
+    background-color: #218838;
+}
+  
+.task-delete-btn {
+    background-color: #dc3545;
+    color: white;
+}
+  
+.task-delete-btn:hover {
+    background-color: #c82333;
+}
+
+/* Ensure buttons are at the end of the task item */
+.task-item {
+    display: flex;
+    justify-content: space-between; /* Ensure text and buttons are spread out */
+    align-items: center;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    #inputTask {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+  
+    #addTaskbtn {
+        width: 100%;
+    }
+  
+    .task-item {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+  
+    .task-done-btn,
+    .task-delete-btn {
+        margin-top: 5px;
+        margin-left: 0;
+        width: 100%;
+    }
+}
