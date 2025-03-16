@@ -9,34 +9,33 @@ Task Flow is a simple and interactive To-Do List application built using pure Ja
 ✅ Responsive and user-friendly interface
 
 🛠 Technologies Used
-JavaScript (Vanilla JS) – Handles task management and local storage
+JavaScript – Handles task management and local storage
 HTML5 – Provides the structure
 CSS3 – Enhances styling and responsiveness
+
 📌 Installation & Usage
 Clone the repository
-bash
-Copy
-Edit
-git clone https://github.com/yourusername/task-flow.git  
+git clone https://github.com/AniketShinde03/TaskFlow-To-list-app.git  
 Open index.html in a browser
 Start managing your tasks with Task Flow! 🎯
-📷 Screenshots
-(Add relevant screenshots here)
+
+📷 "C:\Users\shind\OneDrive\Pictures\Screenshots\Screenshot (137).png"Screenshots
+
+
 
 🏗 Project Structure
-graphql
-Copy
-Edit
 /task-flow
 │── index.html      # Main HTML file  
 │── style.css       # CSS for styling  
 │── script.js       # JavaScript logic  
-│── README.md       # Project documentation  
+│── readme.md       # Project documentation  
+
 🎯 How It Works
 Adding Tasks: Enter a task and click "Add Task"
 Marking Completed: Click "Done" to toggle completion
 Deleting Tasks: Click "Delete" to remove a task
 Data Persistence: Tasks are stored in LocalStorage
+
 🛠 Future Enhancements
 🔹 Add due dates and priority levels
 🔹 Implement categories/tags for tasks
