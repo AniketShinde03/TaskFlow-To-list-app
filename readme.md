@@ -45,3 +45,5 @@ Data Persistence: Tasks are stored in LocalStorage
 
 💡 Contributing
 Feel free to fork, modify, and contribute to this project. Pull requests are welcome!
+learning branch in git
+
